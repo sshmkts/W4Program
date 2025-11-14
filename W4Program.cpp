@@ -100,7 +100,7 @@ int main()
     // Menu (do-while + switch)
     do {
         cout << "\nMenu:\n";
-        cout << "  1) Evaluate Level\n";
+        cout << "  1) Evaluate Player's Level\n";
         cout << "  2) Build Training Plan\n";
         cout << "  3) Readiness & Recovery\n";
         cout << "  0) Quit\n";
