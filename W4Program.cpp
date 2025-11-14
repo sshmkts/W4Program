@@ -22,7 +22,7 @@ int main()
 
     // ===== Banner =====
     cout << "====================================\n";
-    cout << "    Weekly Performance Evaluator     \n";
+    cout << "    Weekly Performance Evaluator - Git Change\n";
     cout << "====================================\n\n";
 
     // User Inputs 
@@ -55,7 +55,7 @@ int main()
         cout << "Invalid sleep hours. Enter a number > 0: ";
     }
 
-    // Derived value 
+	// Calculations 
     double readinessScore = (trainingHours * W_TRAIN)
         + ((sleepHours - SLEEP_MIN_OK) * W_SLEEP);
 
